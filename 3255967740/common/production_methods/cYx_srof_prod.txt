@@ -1,0 +1,68 @@
+﻿cYx_pm_mmrf = {
+	texture = "gfx/interface/icons/production_method_icons/synthetic_dyes.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods 1900+
+			goods_input_oil_add = 20
+			goods_input_electricity_add = 30
+
+			# output goods 3200
+			goods_output_rubber_add = 80
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 2000
+		}
+	}
+}
+cYx_pmg_mmrf_ownership = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_government_run_industry
+		pm_worker_cooperative_industry
+	}
+}
+cYx_pm_mmro = {
+	texture = "gfx/interface/icons/production_method_icons/simple_oil_extraction.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods 1900+
+			goods_input_coal_add = 25
+			goods_input_electricity_add = 30
+
+			# output goods 3200
+			goods_output_oil_add = 80
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 2000
+		}
+	}
+}
+cYx_pmg_mmro_ownership = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_government_run_industry
+		pm_worker_cooperative_industry
+	}
+}
